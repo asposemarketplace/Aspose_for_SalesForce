@@ -25,3 +25,4 @@ Step7: Upload following files to your aspose account [TestMailMerge.doc](https:/
 Step8: Fill the form on AsposeCloudHome page
 
 Note: Make sure you have api.aspose.com/v1.1 enabled under your Remote Site Settings.
+Pre Req: [Force.com IDE Installation](http://wiki.developerforce.com/page/Force.com_IDE_Installation)
