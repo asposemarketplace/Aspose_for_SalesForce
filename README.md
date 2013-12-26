@@ -1,12 +1,12 @@
 Aspose for SalesForce
 =====================
-Step1: Download and unzip AsposeSample.zip
+Step1: Download and unzip Aspose_for_SalesForce
 
 Step2: Import AsposeSample Project in Eclipse as Force.com Project
 
 File > Import
 General > Existing Projects into Workspace
-Select the AsposeSample unziped folder as root directory.
+Select the Aspose_for_SalesForce/Aspose.Words Sample unziped folder as root directory.
 
 Step3: Deploy Project on Salesforce
 
