@@ -1,29 +1,10 @@
 Aspose for SalesForce
 =====================
-Step1: Download and unzip Aspose_for_SalesForce
+Aspose for salesforce allows APEX / Force.com developers to work with Apose REST API. Integrating Aspose for Salesforce into your salesforce app is simple and effective. It’s a cloud solution, so you don’t have to install anything, and it integrates with other cloud services too. Aspose for salesforce provides you ability to use all the document processing features right inside salesforce platform without any pain. Document processing wasn't that easy before Aspose for cloud. We've added samples for Aspose.Words and Aspose.Slides for now and will keep adding more samples in future.
 
-Step2: Import AsposeSample Project in Eclipse as Force.com Project
 
-File > Import
-General > Existing Projects into Workspace
-Select the Aspose_for_SalesForce/Aspose.Words Sample unziped folder as root directory.
+### Installation of Samples Using Package Installer in your Salesforce Portal
+* [Aspose.Slides - Merge Presentation Sample] (https://login.salesforce.com/packaging/installPackage.apexp?p0=04t900000002I4B).
+* [Aspose.Words - Mail Merge Sample] (https://ap1.salesforce.com/packaging/installPackage.apexp?p0=04t900000002D7B).
 
-Step3: Deploy Project on Salesforce
-
-Right Click on Project > Force.com > Deploy to Server 
-
-Step3: Login to Your Salesforce Account on www.salesforce.com
-
-Step4: Open Build > Develop > Pages
-
-Step5: Click on Preview AsposeCloudHome in New Window
-
-Step6: Register / Login Aspose Account
-
-Step7: Upload following files to your aspose account [TestMailMerge.doc](https://dl.dropbox.com/u/5464471/TestMailMerge.doc) and [mail_merge_data.xml](https://dl.dropbox.com/u/5464471/mail_merge_data.xml)
-
-Step8: Fill the form on AsposeCloudHome page
-
-Note: Make sure you have api.aspose.com/v1.1 enabled under your Remote Site Settings.
-
-Pre Req: [Force.com IDE Installation](http://wiki.developerforce.com/page/Force.com_IDE_Installation)
+For further articles read [wiki pages] (https://github.com/asposemarketplace/Aspose_for_SalesForce/wiki).
