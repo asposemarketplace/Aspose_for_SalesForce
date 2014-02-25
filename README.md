@@ -7,5 +7,6 @@ Aspose for salesforce allows APEX / Force.com developers to work with Apose REST
 * [Aspose.Slides - Merge Presentation Sample] (https://login.salesforce.com/packaging/installPackage.apexp?p0=04t900000002I4B).
 * [Aspose.Words - Mail Merge Sample] (https://ap1.salesforce.com/packaging/installPackage.apexp?p0=04t900000002D7B).
 * [Aspose.Pdf - Pdf Merge Sample] (https://login.salesforce.com/packaging/installPackage.apexp?p0=04t900000002IgQ).
+* [Aspose.Cells - Workbook Merge Sample] (https://login.salesforce.com/packaging/installPackage.apexp?p0=04t900000002Ivs).
 
 For further articles read [wiki pages] (https://github.com/asposemarketplace/Aspose_for_SalesForce/wiki).
