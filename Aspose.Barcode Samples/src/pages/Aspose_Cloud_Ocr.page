@@ -1,0 +1,42 @@
+<apex:page controller="AsposeCloudOcrController">
+<apex:form id="theForm">
+    <apex:pageBlock title="Requirements" rendered="true">
+        <ol>
+            <li>Register aspose account.</li>
+            <li>Upload following files to your aspose account.</li>
+            <li>Fill in the form below and click Run Sample (all fields are required).</li>
+        </ol>
+    </apex:pageBlock>
+    <apex:pageBlock title="OCR Sample" rendered="true">        
+        See <a href="http://www.aspose.com/docs/display/ocrcloud/Recognize+operation">http://www.aspose.com/docs/display/ocrcloud/Recognize+operation</a> for full REST API documentation.
+        <table>
+            <tr>
+                <td><b>App SID:</b></td>
+                <td><apex:inputText value="{!appSID}" size="100"/></td>
+            </tr>
+            <tr>
+                <td><b>App Key:</b></td>
+                <td><apex:inputText value="{!appKey}" size="100"/></td>
+            </tr>
+            <tr>
+                <td><b>Bitmap URL:</b></td>
+                <td><apex:inputText value="{!fileName}" size="100"/></td>
+            </tr>            
+        </table>
+        
+        <div class="container">
+            <apex:commandButton action="{!runSample}" value="Run Sample" /><br/>
+            <p>
+                <span>Text Recognized: </span>
+                <apex:outputLink value="{!text}">{!text}</apex:outputLink>
+            </p>
+            <p>
+                <span>Here is the full response from API:</span>
+                <pre>
+                    <apex:outputText value="{!apiResponse}" escape="false"/>
+                </pre>
+            </p>
+        </div>
+    </apex:pageBlock>
+</apex:form>
+</apex:page>
