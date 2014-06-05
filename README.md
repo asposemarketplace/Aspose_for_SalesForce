@@ -16,4 +16,9 @@ Aspose for salesforce allows APEX / Force.com developers to work with Apose REST
 * [Aspose.Barcode - Barcode Text Sample] (https://login.salesforce.com/packaging/installPackage.apexp?p0=04t900000002JJu).
 * [Aspose.Email - Email Sample] (https://login.salesforce.com/packaging/installPackage.apexp?p0=04t900000002TYH).
 
-For further articles read [wiki pages] (https://github.com/asposemarketplace/Aspose_for_SalesForce/wiki).
+For more details, please go through useful [wiki articles] (https://github.com/asposemarketplace/Aspose_for_SalesForce/wiki).
+
+Start a Free Trial Today
+=========================
+
+Start a free trial today – all you need is to [sign up](https://cloud.aspose.com/SignUp) with Aspose for Cloud service. Once you have signed up, you are ready to try powerful file processing features offered by Aspose for Cloud.
