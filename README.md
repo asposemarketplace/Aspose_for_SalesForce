@@ -15,6 +15,7 @@ Aspose for salesforce allows APEX / Force.com developers to work with Apose REST
 * [Aspose.OCR - Text Extraction Sample] (https://login.salesforce.com/packaging/installPackage.apexp?p0=04t900000002J5k).
 * [Aspose.Barcode - Barcode Text Sample] (https://login.salesforce.com/packaging/installPackage.apexp?p0=04t900000002JJu).
 * [Aspose.Email - Email Sample] (https://login.salesforce.com/packaging/installPackage.apexp?p0=04t900000002TYH).
+* [Aspose.Tasks - Tasks Sample] (https://login.salesforce.com/packaging/installPackage.apexp?p0=04t900000002Umk).
 
 For more details, please go through useful [wiki articles] (https://github.com/asposemarketplace/Aspose_for_SalesForce/wiki).
 
