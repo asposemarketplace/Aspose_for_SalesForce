@@ -5,7 +5,7 @@ Aspose for salesforce allows APEX / Force.com developers to work with Apose REST
 
 ### Installation of Samples Using Package Installer in your Salesforce Portal
 #### Single Package
-* [Aspose Cloud Samples for Salesforce - Installation Package] (https://login.salesforce.com/packaging/installPackage.apexp?p0=04t900000002JOW).
+* [Aspose Cloud Samples for Salesforce - Installation Package] (https://login.salesforce.com/packaging/installPackage.apexp?p0=04t900000002Tef).
 
 #### Individual Packages
 * [Aspose.Slides - Merge Presentation Sample] (https://login.salesforce.com/packaging/installPackage.apexp?p0=04t900000002I4B).
