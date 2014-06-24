@@ -57,6 +57,7 @@ public with sharing class Utils {
 
             Http http = new Http();
             HttpResponse res = http.send(request);
+            system.debug('util response:'+res.getBody());
             return res.getBody();
         } catch (Exception ex) {
             system.debug('HTTP ERROR' + ex.getMessage());
