@@ -1,0 +1,40 @@
+<apex:page controller="AsposeTasksController">
+<apex:form id="theForm">
+    <apex:pageBlock title="Requirements" rendered="true">
+        <ol>
+            <li>Register aspose account.</li>
+            <li>Upload following files to your aspose account.</li>
+            <li>Fill in the form below and click Run Sample (all fields are required).</li>
+        </ol>
+    </apex:pageBlock>
+    <apex:pageBlock title="Convert Microsoft Project Files in different formats" rendered="true">        
+        See <a href="http://docs.aspose.com:8082/docs/display/taskscloud/Home">http://docs.aspose.com:8082/docs/display/taskscloud/Home</a> for full REST API documentation.
+        <table>
+            <tr>
+                <td><b>App SID:</b></td>
+                <td><apex:inputText value="{!appSID}" size="100"/></td>
+            </tr>
+            <tr>
+                <td><b>App Key:</b></td>
+                <td><apex:inputText value="{!appKey}" size="100"/></td>
+            </tr>
+            <tr>
+                <td><b>Filename:</b></td>
+                <td><apex:inputText value="{!fileName}" size="100"/></td>
+            </tr>
+            <tr>
+                <td><b>Save Format:</b> (pdf,tiff,html)</td>
+                <td><apex:inputText value="{!saveFormat}" size="100"/></td>
+            </tr>
+        </table>
+        
+        <div class="container">
+            <apex:commandButton action="{!runSample}" value="Run Sample" /><br/>
+            <p>
+                <span>Download: </span>
+                <apex:outputLink value="{!downloadURL}">Download File</apex:outputLink>
+            </p>
+        </div>
+    </apex:pageBlock>
+</apex:form>
+</apex:page>
